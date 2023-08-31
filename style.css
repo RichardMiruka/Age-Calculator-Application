@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(199, 195, 189);
+    font-family: 'Gotu', sans-serif;
+}
+
+.appdata {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 700px;
+    height: 330px;
+    border-radius: 9px;
+}
+
+.appname {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.text {
+    font-size: 22px;
+    margin-top: 12px;
+
+    text-align: center;
+}
+
+.text input {
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+#btn {
+    position: relative;
+    top: 43%;
+    left: 44%;
+    margin-top: 20px;
+    width: 115px;
+    height: 26px;
+    font-size: 15px;
+    border-radius: 9px;
+    outline: none;
+    cursor: pointer;
+}
+
+.mainbox {
+    margin-top: 70px;
+}
+
+.box {
+    background-color: black;
+    height: 53px;
+    margin-top: 96px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    display: flex;
+    align-items: center;
+}
+
+#showdata {
+    font-size: 23px;
+    color: white;
+    position: relative;
+    left: 15%;
+}
+
+@media screen and (max-width: 693px) {
+    .appdata {
+        width: 350px;
+        height: 400px;
+    }
+    .mainbox {
+        margin-top: 100px;
+    }
+    #btn {
+        position: relative;
+        left: 35.5%;
+    }
+    #showdata {
+        position: relative;
+        left: 6%;
+        font-size: 20px;
+    }
+}
