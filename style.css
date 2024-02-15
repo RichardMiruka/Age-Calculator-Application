@@ -34,12 +34,12 @@ body {
 .text {
     font-size: 22px;
     margin-top: 12px;
-
     text-align: center;
 }
 
 .text input {
     font-size: 18px;
+    width: 150px; 
     border: 1px solid black;
 }
 
@@ -93,5 +93,9 @@ body {
         position: relative;
         left: 6%;
         font-size: 20px;
+    }
+
+    .text input {
+        width: 100%; 
     }
 }
